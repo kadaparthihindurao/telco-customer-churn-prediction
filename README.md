@@ -30,7 +30,7 @@ Random Forest feature importance identified `TotalCharges`, `tenure`, `MonthlyCh
 - `WA_Fn-UseC_-Telco-Customer-Churn.csv` — source CSV downloaded from the Kaggle dataset archive.
 - `analyze_churn.py` — reproducible local validation script.
 - `results.json` — exact metrics produced by the validation run.
-- `linkedin_post.md` — ready-to-edit LinkedIn project post.
+
 
 ## Run in Google Colab
 
