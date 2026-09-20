@@ -31,11 +31,6 @@ Random Forest feature importance identified `TotalCharges`, `tenure`, `MonthlyCh
 - `analyze_churn.py` — reproducible local validation script.
 - `results.json` — exact metrics produced by the validation run.
 
-
-## Run in Google Colab
-
-1. Download the notebook and CSV from this repository.
-2. Open [Google Colab](https://colab.research.google.com/), upload the notebook, and choose **Runtime → Run all**.
 ## Dataset
 
 The dataset is not included in this repository. Download it from:
