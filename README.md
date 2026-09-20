@@ -36,12 +36,14 @@ Random Forest feature importance identified `TotalCharges`, `tenure`, `MonthlyCh
 
 1. Download the notebook and CSV from this repository.
 2. Open [Google Colab](https://colab.research.google.com/), upload the notebook, and choose **Runtime → Run all**.
-3. Upload the CSV when prompted. Colab already includes pandas, seaborn, matplotlib, and scikit-learn.
+## Dataset
+
+The dataset is not included in this repository. Download it from:
+
+[Telco Customer Churn — blastchar on Kaggle](https://www.kaggle.com/datasets/blastchar/telco-customer-churn)
+
+After downloading, place `WA_Fn-UseC_-Telco-Customer-Churn.csv` in the same folder as the notebook, or upload it when prompted in Google Colab.
 
 ## Responsible interpretation
 
 This analysis uses observational historical data. It does not establish that a feature causes churn, and model quality should be revalidated on current customer data before any real deployment. A production retention workflow should tune the probability threshold to campaign capacity and the relative costs of false positives and missed churners.
-
-## Data source
-
-`blastchar`, “Telco Customer Churn,” Kaggle. Accessed September 20, 2026. Review the dataset page for its current license and usage terms before redistributing the CSV.
