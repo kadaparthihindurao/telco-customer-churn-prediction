@@ -1,0 +1,72 @@
+{
+  "raw_rows": 7043,
+  "clean_rows": 7032,
+  "totalcharges_blanks_removed": 11,
+  "overall_churn_pct": 26.578498293515356,
+  "contract_churn_pct": {
+    "Month-to-month": 42.70967741935484,
+    "One year": 11.277173913043478,
+    "Two year": 2.8486646884272995
+  },
+  "tenure_group_churn_pct": {
+    "0-12 months": 47.67816091954023,
+    "13-24 months": 28.7109375,
+    "25-48 months": 20.388958594730237,
+    "49-72 months": 9.513175524787853
+  },
+  "train_rows": 5625,
+  "test_rows": 1407,
+  "models": {
+    "Logistic Regression": {
+      "accuracy": 0.8038379530916845,
+      "precision_churn": 0.6484848484848484,
+      "recall_churn": 0.5721925133689839,
+      "f1_churn": 0.6079545454545454,
+      "roc_auc": 0.8359290473207676,
+      "confusion_matrix": [
+        [
+          917,
+          116
+        ],
+        [
+          160,
+          214
+        ]
+      ]
+    },
+    "Random Forest": {
+      "accuracy": 0.7889125799573561,
+      "precision_churn": 0.6313993174061433,
+      "recall_churn": 0.4946524064171123,
+      "f1_churn": 0.5547226386806596,
+      "roc_auc": 0.8255082284607939,
+      "confusion_matrix": [
+        [
+          925,
+          108
+        ],
+        [
+          189,
+          185
+        ]
+      ]
+    }
+  },
+  "random_forest_top_features": {
+    "num__TotalCharges": 0.14324708778460166,
+    "num__tenure": 0.14239396232626436,
+    "num__MonthlyCharges": 0.11549511916417508,
+    "cat__Contract_Month-to-month": 0.07403744590688524,
+    "cat__OnlineSecurity_No": 0.039692530000003765,
+    "cat__TechSupport_No": 0.03696325718035088,
+    "cat__PaymentMethod_Electronic check": 0.03575901036604563,
+    "cat__InternetService_Fiber optic": 0.033005810781621056,
+    "cat__Contract_Two year": 0.025300845204139708,
+    "cat__OnlineBackup_No": 0.019273239506896446,
+    "cat__gender_Female": 0.015467604438859965,
+    "cat__DeviceProtection_No": 0.015358207806817278,
+    "cat__gender_Male": 0.01519008084644483,
+    "cat__InternetService_DSL": 0.014865988866243025,
+    "cat__PaperlessBilling_No": 0.014143900924661047
+  }
+}
